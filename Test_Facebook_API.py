@@ -20,8 +20,8 @@ class FacebookApi(unittest.TestCase):
     def setUp(self):
 
         self.verificationErrors = []
-        self.PAGE_ID = '815424305464248'  # TODO: ENTER YOUR PAGE ID HERE
-        self.TOKEN = '&access_token=EAANg6SB23VABALAYl9ahke3HuaGaSeiZAZA4SSdkzpWmZAPgi4CqZAwObjaplsa9jHKMgnZAbCJdg1eNatOZA13IgJJRIBNokqRKvQ6tT7FWZACJJTzhj4rY5GzlSq9KUBBcUon63YveFWZChK0z57uhnvZAN8NMVxtEWVn4WyQEqdANGNLrNz0myj5dyBSpfO9L4BeVZA5y6DZCAZDZD'  # TODO: ENTER YOUR TOKEN HERE
+        self.PAGE_ID = ''  # TODO: ENTER YOUR PAGE ID HERE
+        self.TOKEN = '&access_token='  # TODO: ENTER YOUR TOKEN HERE
         self.BASE_URL = 'https://graph.facebook.com/v3.2/'
         self.BGN = self.BASE_URL + self.PAGE_ID + '/'
         self.FIELDS = '?fields='
